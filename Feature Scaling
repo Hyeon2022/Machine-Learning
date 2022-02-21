@@ -1,0 +1,16 @@
+'''
+단위가 다를 때 하나의 단위로 통일하지 않는다면 오류가 생기기 때문에 Feature Scaling을 진행해야한다.
+
+
+Feature Scaling에는 2가지 방식이 있다.
+1.Min-Max Normalization
+
+x_scaled = ( x - x_min ) / (x_max - x_min) 이 있으며
+
+
+
+
+2. Standardization
+
+x' = ( x - x^bar ) / o(sigma)
+
