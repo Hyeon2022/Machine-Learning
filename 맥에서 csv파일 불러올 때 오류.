@@ -1,0 +1,16 @@
+맥에서 encoding 할 때 오류가 발생하는데
+이를 해결하기 위해서 다음과 같은 코드를 넣어주면 된다.
+
+
+ccs = pd.read_csv('Concrete_Data.xls') #ccs = Concrete_compressive_sterngth를 축약한 정의
+
+이렇게 코드를 넣으면 맥에서 인코딩할 때 오류가 발생한다.
+다음과 같이 코드를 추가할 수 있다.
+
+
+
+ 
+ ccs = pd.read_csv('Concrete_Data.xls',  encoding = 'ISO-8859-1') #ccs = Concrete_compressive_sterngth를 축약한 정의
+ 
+ 
+ 
